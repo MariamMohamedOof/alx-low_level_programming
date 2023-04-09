@@ -50,7 +50,8 @@ int main(int argc, char *argv[])
 		if (check_num(argv[c]))
 
 		{
-			str_to_int = atoi(argv[c]);
+			str_to_int = atoi(argv[c]); /*ATOI --> convert string to int*/
+
 			sum += str_to_int;
 		}
 
@@ -64,7 +65,7 @@ int main(int argc, char *argv[])
 		c++;
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", sum); /*print the sum*/
 
 	return (0);
 }
