@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	int str_to_int;
 	int sum = 0;
 
-	count = 1;
+	c = 1;
 	while (c < argc) /*Goes through the whole array*/
 	{
 		if (check_num(argv[c]))
