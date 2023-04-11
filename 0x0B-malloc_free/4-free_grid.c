@@ -15,7 +15,7 @@ void free_grid(int **grid, int height)
 
 	for (i = 0; i < height; i++)
 	{
-		/*to free the space of the width of this height of i so that at end the whole grid is empty*/
+		/*to free the space of the width of this height of i*/
 		free(grid[i]);
 	}
 	free(grid);
